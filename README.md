@@ -27,9 +27,13 @@ Technologies:
 INSTALATION
 
 git clone https://github.com/MarkOsovets/Flask-edu
+
 cd Flask-edu
+
 ls 
+
 choose the project
+
 
 python -m venv venv
 
