@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<form action="/auth" method="post" class="from-contact">
+    <label>Имя:</label>
+    <input type="text" name="name" required />
+    <label>Пароль:</label>
+    <input type="password" name="psw" value="" required />
+    <input type="submit" value="Войти" />
+</form>
+{% endblock %}

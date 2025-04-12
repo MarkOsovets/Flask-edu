@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Логин
+{% endblock %}
+
+{% block body %}
+<form action="/login" method="post" class="formregistr">
+    <h1>Авторизация</h1>
+    <label>Name:</label>
+    <input type="text" name="name" value="" required />
+    <label>Email:</label>
+    <input type="text" name="email" value="" required />
+    <label>Пароль:</label>
+    <input type="password" name="password" value="" required />
+    <p><input type="submit" value="Отправить" /></p>
+</form>
+{% for cat, i in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{ i }}</div>
+{% endfor %}
+{% endblock %}

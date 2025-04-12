@@ -1,0 +1,35 @@
+### Python ###
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+
+### Virtual Environment ###
+venv/
+.venv/
+env/
+ENV/
+
+
+
+### Database ###
+*.sqlite
+*.sqlite-journal
+
+### IDE ###
+.idea/
+.vscode/
+*.swp
+*.swo
+
+### System ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Dependency directories ###
+*/__pycache__/
