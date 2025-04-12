@@ -1,19 +1,28 @@
 
 This is repository with my educational projects
 
--these are sites where you can add articles
+These are sites where you can add articles
 
 course: https://www.youtube.com/watch?v=6jxveKOdyNg&list=PLA0M1Bcd0w8yrxtwgqBvT6OM4HkOU3xYn
 
 Technologies:
+
 -Flask
+
 -WTFForms
+
 -Flask-login
+
 -Jinja2
+
 -Sqlite
--SQLAlchmey
+
+-SQLAlchemy
+
 -html
+
 -css
+
 
 INSTALATION
 
